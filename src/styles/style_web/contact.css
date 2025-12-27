@@ -1,0 +1,140 @@
+/* ============================================
+   CONTACT SECTION STYLES
+   Path: src/styles/style_web/contact.css
+   ============================================ */
+
+.contact-section {
+  padding: 120px 0;
+  background: #0a0a0a;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 60px;
+  margin-top: 60px;
+}
+
+.contact-info h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.contact-text {
+  font-size: 16px;
+  color: #9ca3af;
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+
+/* Contact Methods */
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.contact-method {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  background: rgba(17, 24, 39, 0.5);
+  border: 1px solid rgba(52, 211, 153, 0.1);
+  border-radius: 16px;
+  transition: all 0.3s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-method:hover {
+  border-color: rgba(52, 211, 153, 0.3);
+  transform: translateX(8px);
+}
+
+.contact-method svg {
+  color: #34d399;
+}
+
+.method-label {
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+.method-value {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  gap: 16px;
+}
+
+.social-link {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(52, 211, 153, 0.1);
+  border: 1px solid rgba(52, 211, 153, 0.2);
+  border-radius: 12px;
+  color: #34d399;
+  transition: all 0.3s;
+}
+
+.social-link:hover {
+  background: rgba(52, 211, 153, 0.2);
+  border-color: #34d399;
+  transform: translateY(-4px);
+}
+
+/* Contact Form */
+.contact-form {
+  background: rgba(17, 24, 39, 0.5);
+  border: 1px solid rgba(52, 211, 153, 0.1);
+  border-radius: 24px;
+  padding: 40px;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #d1d5db;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 14px 16px;
+  background: rgba(10, 10, 10, 0.5);
+  border: 1px solid rgba(52, 211, 153, 0.2);
+  border-radius: 12px;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.3s;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #34d399;
+  background: rgba(10, 10, 10, 0.7);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}

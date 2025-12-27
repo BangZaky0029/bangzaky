@@ -1,0 +1,21 @@
+/* ============================================
+   MAIN CSS INDEX
+   Path: src/styles/index.css
+   
+   Import semua file CSS dalam urutan yang benar
+   ============================================ */
+
+/* Global Styles */
+@import './style_web/global.css';
+
+/* Component Styles */
+@import './style_web/navigation.css';
+@import './style_web/hero.css';
+@import './style_web/about.css';
+@import './style_web/services.css';
+@import './style_web/portfolio.css';
+@import './style_web/contact.css';
+@import './style_web/footer.css';
+
+/* Responsive Styles */
+@import './style_mobile/responsive.css';

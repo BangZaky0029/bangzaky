@@ -1,0 +1,90 @@
+/* ============================================
+   ABOUT SECTION STYLES
+   Path: src/styles/style_web/about.css
+   ============================================ */
+
+.about-section {
+  padding: 120px 0;
+  background: linear-gradient(180deg, #0a0a0a 0%, #111827 100%);
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 60px;
+}
+
+.about-paragraph {
+  font-size: 18px;
+  color: #d1d5db;
+  margin-bottom: 24px;
+  line-height: 1.8;
+}
+
+/* Values Grid */
+.values-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.value-item {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.value-icon {
+  color: #34d399;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.value-item h4 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.value-item p {
+  font-size: 15px;
+  color: #9ca3af;
+}
+
+/* Expertise Card */
+.expertise-card {
+  background: rgba(17, 24, 39, 0.5);
+  border: 1px solid rgba(52, 211, 153, 0.2);
+  border-radius: 24px;
+  padding: 40px;
+  height: fit-content;
+}
+
+.expertise-card h3 {
+  font-size: 24px;
+  margin-bottom: 24px;
+  color: #34d399;
+}
+
+.expertise-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.expertise-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  color: #d1d5db;
+}
+
+.expertise-dot {
+  width: 8px;
+  height: 8px;
+  background: #34d399;
+  border-radius: 50%;
+  flex-shrink: 0;
+}

@@ -1,0 +1,68 @@
+/* ============================================
+   SERVICES SECTION STYLES
+   Path: src/styles/style_web/services.css
+   ============================================ */
+
+.services-section {
+  padding: 120px 0;
+  background: #0a0a0a;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.service-card {
+  background: rgba(17, 24, 39, 0.5);
+  border: 1px solid rgba(52, 211, 153, 0.1);
+  border-radius: 24px;
+  padding: 40px;
+  transition: all 0.3s;
+}
+
+.service-card:hover {
+  border-color: rgba(52, 211, 153, 0.3);
+  transform: translateY(-8px);
+  box-shadow: 0 16px 48px rgba(52, 211, 153, 0.1);
+}
+
+.service-icon {
+  color: #34d399;
+  margin-bottom: 24px;
+}
+
+.service-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.service-description {
+  font-size: 16px;
+  color: #9ca3af;
+  margin-bottom: 24px;
+  line-height: 1.7;
+}
+
+.service-benefits {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.service-benefits li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  color: #d1d5db;
+}
+
+.service-benefits svg {
+  color: #34d399;
+  flex-shrink: 0;
+}
