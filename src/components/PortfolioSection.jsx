@@ -6,6 +6,9 @@
 import React from 'react'
 
 const projects = [
+    { title: 'Bangzaky', category: 'Personal Porfolio', description: 'Website portofolio pribadi dengan berbagai proyek dan layanan.', tags: ['React','Landing','SEO'], url: 'https://bangzaky.vercel.app/'},
+    { title: 'MBell', category: 'Personal Porfolio', description: 'Website layanan Make Over Profesional Make-Up Artis.', tags: ['React','Landing','SEO'], url: 'https://mbell.vercel.app/'},
+    { title: 'Najmi Service', category: 'Personal Porfolio', description: 'Website layanan Solusi Service Elektronik & ListrikProfesional dan Terpercaya.', tags: ['React','Landing','SEO'], url: 'https://najmiservice.netlify.app/'},
     { title: 'Nuansa Solution', category: 'Company Profile', description: 'Website resmi Nuansa Solution dengan layanan dan fitur lengkap.', tags: ['React','Landing','SEO'], url: 'https://nuansasolution.id/' },
     { title: 'Generator Surat Kuasa', category: 'Tool Hukum', description: 'Buat surat kuasa resmi dengan struktur yang rapi dan siap cetak.', tags: ['React','UX','Form Builder'], url: 'https://nuansasolution.id/surat-kuasa/' },
     { title: 'Kalkulator PPh', category: 'Tax Calculator', description: 'Hitung PPh dengan akurat dan cepat untuk berbagai skema.', tags: ['React','Finance','Calculator'], url: 'https://nuansasolution.id/calculator-PPH/' },
